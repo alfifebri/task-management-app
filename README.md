@@ -1,18 +1,26 @@
 # Task Management App
 
-Kanban-style task manager built with Next.js, TypeScript, Firebase, and Tailwind CSS.
+A modern task management application inspired by Trello, built with Next.js, Firebase, and Drag & Drop interaction.
 
 ## Features
-- Add, edit, delete tasks
-- Drag & drop task between columns
-- Real-time sync with Firebase
+- Authentication (Firebase Auth)
+- Create, edit, delete tasks
+- Drag & drop between Todo, In Progress, Done
+- Real-time sync with Firestore
 - Dark mode UI
+- Smooth animation with Framer Motion
 
 ## Tech Stack
-- Next.js
+- Next.js (App Router)
 - TypeScript
+- Firebase (Auth + Firestore)
 - Tailwind CSS
-- Firebase
+- dnd-kit
 - Framer Motion
-- @dnd-kit
 
+## Live Demo
+https://task-management-app-five-ruddy.vercel.app/
+
+## Run Locally
+npm install
+npm run dev
